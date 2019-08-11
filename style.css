@@ -89,7 +89,7 @@
  .icon {
   background: #ffffff;
   display: inline-block;
-  height: 1.5rem;
+  height: 1.5rem; 
   line-height: 1.5rem;
   width: 1.5rem;
 }
@@ -104,6 +104,7 @@
 }
 .advisor__job {
   font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
 }
 /* /main */
 
