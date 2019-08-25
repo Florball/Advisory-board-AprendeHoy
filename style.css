@@ -41,12 +41,22 @@
 /* main */
 .our-advisors {
   margin-top: 5rem;
+  position: relative,
+}
+.our-advisors__cont__txt {
+  top: 20%;
 }
 .our-advisors__title {
   font-family: 'Lexend Deca', sans-serif;
 }
-.our-advisors__text {
+.our-advisors__p {
   font-family: 'Montserrat', sans-serif;
+}
+@media (min-width: 768px) {
+  .our-advisors__images {
+    margin-left: 33vw;
+    width: 100%; 
+  }
 }
 .our-advisors__cont__image {
   flex-wrap: flex;
@@ -107,10 +117,16 @@
 }
 /* /main */
 
-
 /* Responsive para pantallas grandes */
 @media (min-width: 1050px) {
   .general-padding {
     padding: 0% 10% !important;
   }
+  .general-padding-txt {
+    margin-left: 8%;
+  }
+  .general-padding-advisors {
+    padding-right: 10%;
+  }
 }
+/* /Responsive para pantallas grandes */
